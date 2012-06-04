@@ -1,3 +1,5 @@
+package net.bluedash;
+
 import java.util.*;
 
 public class MultiValueMap<K, V> {

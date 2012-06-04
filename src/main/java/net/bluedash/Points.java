@@ -1,3 +1,5 @@
+package net.bluedash;
+
 import javax.swing.*;
 import java.awt.*;
 
