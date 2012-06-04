@@ -7,7 +7,6 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 /*
  * mvn install
@@ -54,8 +53,6 @@ public class Picker {
 
         int height = bufImg.getHeight();
         int width = bufImg.getWidth();
-
-        List<Double> deviations = new ArrayList<Double>();
 
         MultiValueMap<Color, Point> mvm =
                 new MultiValueMap<Color, Point>(new ArrayList<Point>());
